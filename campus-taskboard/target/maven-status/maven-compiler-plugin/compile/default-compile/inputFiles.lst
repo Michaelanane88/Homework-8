@@ -1,0 +1,11 @@
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\CampusTaskboardApplication.java
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\controller\TaskController.java
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\dto\TaskRequest.java
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\dto\TaskResponse.java
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\exception\ErrorResponse.java
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\exception\GlobalExceptionHandler.java
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\exception\InvalidTaskDataException.java
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\exception\TaskNotFoundException.java
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\model\Task.java
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\repository\TaskRepository.java
+C:\Users\dlaen\Downloads\campus-taskboard\src\main\java\edu\brooklyn\cisc3130\campus_taskboard\service\TaskService.java

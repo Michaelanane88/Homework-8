@@ -1,0 +1,92 @@
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Complete Homework 6",
+  "description": "Finish Spring Data JPA assignment",
+  "completed": false,
+  "priority": "HIGH"
+}
+
+###
+
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Buy groceries",
+  "description": "Milk eggs bread",
+  "completed": true,
+  "priority": "LOW"
+}
+
+###
+
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Study for exam",
+  "description": "Review chapters 1 to 5",
+  "completed": false,
+  "priority": "HIGH"
+}
+
+###
+
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Homework reading",
+  "description": "Read chapter 6 notes",
+  "completed": false,
+  "priority": "MEDIUM"
+}
+
+###
+
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Clean room",
+  "description": "Organize desk and vacuum",
+  "completed": true,
+  "priority": "MEDIUM"
+}
+
+###
+
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Do homework problems",
+  "description": "Finish practice exercises",
+  "completed": true,
+  "priority": "HIGH"
+}
+
+###
+
+GET http://localhost:8080/api/tasks
+
+###
+
+GET http://localhost:8080/api/tasks/completed
+
+###
+
+GET http://localhost:8080/api/tasks/incomplete
+
+###
+
+GET http://localhost:8080/api/tasks/priority/HIGH
+###
+
+GET http://localhost:8080/api/tasks/search?keyword=homework
+
+###
+
+GET http://localhost:8080/api/tasks/paginated?page=0&size=54
